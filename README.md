@@ -33,8 +33,8 @@ No automated test suite has been created for these files.
 
 
 ## Deployment
-To deploy this on a live system, copy all of the files to your computer. This is a command-line 
-tool, not one that runs in the browser. There are no live pages to demonstrate. 
+To deploy this on a live system, copy all of the files to your computer. 
+
 
 ## Built With
 * [Visual Studio Code] https://code.visualstudio.com/docs/setup/setup-overview
@@ -50,6 +50,8 @@ tool, not one that runs in the browser. There are no live pages to demonstrate.
     * npm install font-awesome
     * npm install @fortawesome/fontawesome-free
     * npm install axios
+
+* The intial code was built from the create-react-app tool (https://github.com/facebook/create-react-app)
 
 ## Contributing
 This project is not open to contributions.
