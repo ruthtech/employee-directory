@@ -4,7 +4,7 @@ function EmployeeRow(props) {
   return props.model.map( (employee, index) => {
     const name = employee.name.last + ", " + employee.name.first;
     return (
-      <tr>
+      <tr key={index}>
         <td className="border border-dark"><img src={employee.picture.thumbnail} alt={name}/></td>
         <td className="border border-dark">{name}</td>
         <td className="border border-dark">{employee.location.city}</td>
