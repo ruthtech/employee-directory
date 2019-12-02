@@ -6,7 +6,7 @@ This application enables employees to view the entire employee directory at once
 ### Prerequisites
   * Git terminal
   * Bootstrap
-  * React bootstrap
+  * React
   * Font awesome
   * Font awesome version 5
   * Axios
@@ -22,6 +22,12 @@ This application enables employees to view the entire employee directory at once
        * npm install font-awesome
        * npm install @fortawesome/fontawesome-free
        * npm install axios
+       * react
+       * react-bootstrap
+       * react-dom
+       * react-router-dom
+       * react-scripts
+
     6. Then use your Git terminal to execute npm start. 
 
 
@@ -29,11 +35,17 @@ This application enables employees to view the entire employee directory at once
 No automated test suite has been created for these files.
 
 ### Manual tests
-
-
+1. Sort by Name. Is it sorted A-Z?
+2. Sort by Name again. Is it sorted Z-A?
+3. Repeat #1 and #2 for City and Province.
+4. Type a common surname in the filter field. Are only those names shown?
+5. With only those names filtered in, can you sort on Name, City, and Province?
+6. When you remove the filter, do the original rows come back and can be sorted as in #1, #2, and #3?
 
 ## Deployment
 To deploy this on a live system, copy all of the files to your computer. 
+
+Alternatively, view this on a live system at Heroku https://warm-bayou-17523.herokuapp.com/
 
 
 ## Built With
@@ -68,6 +80,6 @@ MIT
 ## Acknowledgments
 Thanks to the following:
 * U of T Coding Bootcamp (https://bootcamp.learn.utoronto.ca/coding/)
-
+* Heroku for the live deployment (https://herokuapp.com)
        
 
