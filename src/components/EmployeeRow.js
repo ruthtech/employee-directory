@@ -6,11 +6,11 @@ function EmployeeRow(props) {
     return (
       <tr>
         <td className="border border-dark"><img src={employee.picture.thumbnail} alt={name}/></td>
-        <td>{name}</td>
-        <td>{employee.location.city}</td>
-        <td>{employee.location.province}</td>
-        <td>{employee.email}</td>
-        <td>{employee.phone}</td>
+        <td className="border border-dark">{name}</td>
+        <td className="border border-dark">{employee.location.city}</td>
+        <td className="border border-dark">{employee.location.state}</td>
+        <td className="border border-dark">{employee.email}</td>
+        <td className="border border-dark">{employee.phone}</td>
       </tr>
     );
   });
