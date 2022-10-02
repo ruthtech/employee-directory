@@ -9,7 +9,7 @@
     "bootstrap": "^4.6.1",
     "font-awesome": "^4.7.0",
     "immer": "^9.0.12",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.0",
     "kind-of": "^6.0.3",
     "minimist": "^1.2.6",
     "node": "^17.7.2",
